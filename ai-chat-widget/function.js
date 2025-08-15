@@ -280,6 +280,11 @@
             gap: 10px;
         }
 
+        .chat-assist-widget .chat-controls .chat-inputs {
+            display: flex;
+            gap: 10px;
+        }
+
         .chat-assist-widget .chat-textarea {
             flex: 1;
             padding: 14px 16px;
@@ -663,13 +668,15 @@
         <div class="chat-body">
             <div class="chat-messages"></div>
             <div class="chat-controls">
-                <textarea class="chat-textarea" placeholder="Type your message here..." rows="1"></textarea>
-                <button class="chat-submit">
+                <div class="chat-inputs">
+                  <textarea class="chat-textarea" placeholder="Type your message here..." rows="1"></textarea>
+                  <button class="chat-submit">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M22 2L11 13"></path>
                         <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
                     </svg>
-                </button>
+                  </button>
+                </div>
             </div>
         </div>
     `;
