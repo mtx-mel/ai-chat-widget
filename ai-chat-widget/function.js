@@ -292,7 +292,7 @@
             font-family: inherit;
             font-size: 14px;
             line-height: 1.5;
-            max-height: 120px;
+            max-height: 100px;
             min-height: 48px;
             transition: var(--chat-transition);
         }
