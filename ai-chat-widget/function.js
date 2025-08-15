@@ -292,7 +292,7 @@
             font-family: inherit;
             font-size: 14px;
             line-height: 1.5;
-            max-height: 100px;
+            max-height: 48px;
             min-height: 48px;
             transition: var(--chat-transition);
         }
@@ -301,7 +301,6 @@
             outline: none;
             border-color: var(--chat-color-primary);
             box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
-            max-height: 100px;
         }
 
         .chat-assist-widget .chat-textarea::placeholder {
