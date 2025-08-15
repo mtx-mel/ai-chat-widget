@@ -276,7 +276,7 @@
             padding: 16px;
             background: var(--chat-color-surface);
             border-top: 1px solid var(--chat-color-light);
-            display: flex;
+            display: block;
             gap: 10px;
         }
 
